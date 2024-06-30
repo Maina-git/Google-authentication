@@ -1,0 +1,86 @@
+.homepage {
+  height: auto;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  place-items: center;
+}
+.homepage .google {
+  display: flex;
+  gap: 10px;
+  margin: 50px 0;
+}
+.homepage .google p {
+  font-size: 100px;
+  font-family: sans-serif;
+  font-weight: bold;
+}
+.homepage .google .g {
+  color: rgb(71, 71, 233);
+}
+.homepage .google .o {
+  color: rgb(228, 65, 65);
+}
+.homepage .google .n {
+  color: rgb(235, 235, 79);
+}
+.homepage .google .l {
+  color: rgb(39, 143, 39);
+}
+.homepage .google .e {
+  color: rgb(228, 65, 65);
+}
+.homepage .signout {
+  position: absolute;
+  top: 30px;
+  right: 40px;
+  padding: 5px 20px;
+  border: 0;
+  outline: 0;
+  background: rgb(109, 109, 226);
+  color: white;
+  cursor: pointer;
+}
+.homepage .signout:hover {
+  background: rgb(131, 131, 223);
+}
+.homepage .userInfo {
+  display: flex;
+  flex-direction: column;
+  place-items: center;
+}
+.homepage .userInfo p {
+  font-family: sans-serif;
+}
+.homepage .userInfo .googleservices {
+  display: flex;
+  place-items: center;
+  margin: 30px 0;
+}
+.homepage .userInfo .googleservices .icon {
+  width: 50px;
+  height: 50px;
+  background: 0;
+  margin: 50px;
+  border-radius: 5px;
+  font-size: 50px;
+}
+.homepage .userInfo .googleservices .icon .play {
+  color: rgb(53, 104, 53);
+  cursor: pointer;
+}
+.homepage .userInfo .googleservices .icon .youtube {
+  color: red;
+  cursor: pointer;
+}
+.homepage .userInfo .googleservices .icon .firebase {
+  color: orange;
+  cursor: pointer;
+}
+.homepage .userInfo .googleservices .icon .drive {
+  color: rgb(112, 112, 241);
+  cursor: pointer;
+}
+.homepage .userInfo .googleservices .icon .android {
+  cursor: pointer;
+}/*# sourceMappingURL=Homepage.css.map */

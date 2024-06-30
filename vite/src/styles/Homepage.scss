@@ -1,0 +1,121 @@
+@import  "./Mixins.scss";
+
+.homepage{
+    height:auto;
+    margin:auto;
+    display:flex;
+    flex-direction:column;
+    place-items:center;
+
+.google{
+ display:flex;
+ gap:10px;
+ margin:50px 0;
+
+ p{
+    font-size:100px;
+    font-family:sans-serif;
+    font-weight:bold;
+
+
+@include respond(phone){
+    font-size:40px;
+}
+
+ }
+
+ .g{ color:rgb(71, 71, 233);}
+ .o{ color:rgb(228, 65, 65);}
+ .n{ color:rgb(235, 235, 79);}
+ .l{ color:rgb(39, 143, 39);}
+ .e{ color:rgb(228, 65, 65)}
+}
+.signout{
+    position:absolute;
+    top:30px;
+    right:40px;
+    padding:5px 20px;
+    border:0;
+    outline:0;
+    background:rgb(109, 109, 226);
+    color:white;
+    cursor:pointer;
+
+@include respond(phone){
+position:absolute;
+top:10px;
+right:10px;
+padding:3px 10px;
+font-size:10px;
+}
+
+
+}
+.signout:hover{
+    background:rgb(131, 131, 223);
+}
+
+.userInfo{
+    display:flex;
+    flex-direction:column;
+    place-items:center;
+
+h1{
+    font-family:sans-serif;
+    font-size:20px;
+}
+
+    p{
+        font-family:sans-serif;
+    }
+    .googleservices{
+        display:flex;
+        place-items:center;
+     margin:30px 0;
+
+     @include respond(phone){
+        display:grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        
+    }
+
+
+.icon{
+    width:50px;
+    height:50px;
+    background:0;
+    margin:50px;
+    border-radius:5px;
+    font-size:50px;
+
+@include respond(phone){
+    font-size:30x;
+}
+
+
+.play{
+    color:rgb(53, 104, 53);
+    cursor:pointer;
+}
+.youtube{
+    color:red;
+    cursor:pointer;
+}
+.firebase{
+    color:orange;
+    cursor:pointer;
+}
+.drive{
+    color:rgb(112, 112, 241);
+    cursor:pointer;
+}
+.android{
+    cursor:pointer;
+}
+.ggle{
+    cursor:pointer;
+}
+}
+}
+}
+}
